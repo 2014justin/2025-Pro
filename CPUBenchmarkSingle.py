@@ -2,6 +2,10 @@ import time
 import math
 import multiprocessing
 
+# Run a simple benchmark that leverages multiple threads.
+# Number crunching is a good way to stress the single core performance of
+# Apple M4 silicon. 
+
 def cpu_benchmark(L=5):
     # Run a Synthetic CPU Benchmark
     # Return operations per second
